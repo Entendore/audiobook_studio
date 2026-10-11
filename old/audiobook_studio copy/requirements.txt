@@ -1,0 +1,28 @@
+# Audiobook Studio Pro v5.0 — Dependencies
+# ==========================================
+
+# Core (required)
+PySide6>=6.5.0
+edge-tts>=6.1.0
+
+# Document Parsing (optional but recommended)
+pypdf>=3.0.0
+python-docx>=0.8.11
+beautifulsoup4>=4.12.0
+ebooklib>=0.18
+
+# NLP (optional — enables professional multi-speaker detection)
+spacy>=3.5.0
+
+# Audio Processing (requires system FFmpeg)
+# FFmpeg must be installed separately: https://ffmpeg.org/download.html
+
+# Local TTS Backends (optional — uncomment for local inference)
+# torch>=2.0.0
+# transformers>=4.30.0
+
+# DramaBox API (optional — for cloud DramaBox TTS)
+# aiohttp>=3.8.0
+
+# Audio Playback (optional — for voice preview in dialogs)
+# PySide6 includes QtMultimedia (no extra install needed)
